@@ -12,7 +12,7 @@ const App = () => {
   
   return (
     <>
-    {!isLoaded && < LoadingScreen onComplete={() => setIsLoaded(true)} />}
+    {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
     </>
   )
 }

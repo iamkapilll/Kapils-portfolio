@@ -19,3 +19,44 @@ const App = () => {
 
 export default App
 
+const App = () => {
+
+  const [isLoaded, setIsLoaded] = useState(false)
+
+
+  
+  return (
+    <>
+    {!isLoaded && < LoadingScreen onComplete={() => setIsLoaded(true)} />}
+    </>
+  )
+}
+
+export default Appconst App = () => {
+
+  const [isLoaded, setIsLoaded] = useState(false)
+
+
+  
+  return (
+    <>
+    {!isLoaded && < LoadingScreen onComplete={() => setIsLoaded(true)} />}
+    </>
+  )
+}
+
+export default Appconst App = () => {
+
+  const [isLoaded, setIsLoaded] = useState(false)
+
+
+  
+  return (
+    <>
+    {!isLoaded && < LoadingScreen onComplete={() => setIsLoaded(true)} />}
+    </>
+  )
+}
+
+export default App
+

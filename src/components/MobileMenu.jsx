@@ -1,4 +1,4 @@
-
+// this section mainly represents for mobile menu
 export const MobileMenu = ({menuOpen, setMenuOpen}) =>{
 
     

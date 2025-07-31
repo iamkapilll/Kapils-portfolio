@@ -48,7 +48,28 @@ export const About = () =>{
                         
                     </div>
                 </div>
-                <div></div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-1 transition-all">
+                       <h3 className="text-xl font-bold mb-4">Education</h3>
+                       <ul className="list-disc list-inside text-gray-300 spacy-y-2">
+                        <li>
+                            <strong>BSc in Computer Science and Information Technology (2022-2026)</strong>
+                        </li>
+                        <li>
+                            Relevant Coursework: Data Structures and Algorithms, Python, Web Development, Artificial Intelligence, Theory of Computation....
+                        </li>
+                       </ul>
+                    </div>
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-1 transition-all">
+                       <h3 className="text-xl font-bold mb-4">Work Experience</h3>
+                       <div className="space-y-4 text-gray-300">
+                        <div>
+                            <h4>No experience for now</h4>
+                        </div>
+
+                       </div>
+                    </div>
+                </div>
 
             </div>
         </section>

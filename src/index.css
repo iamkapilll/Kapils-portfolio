@@ -43,7 +43,9 @@ html, body {
 .reveal {
   opacity: 0;
   transform: translate(20px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  /* transition: opacity 0.7s ease, transform 0.7s ease; */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
 }
 
 .reveal.visible {
